@@ -1,0 +1,123 @@
+[Header]
+MagicCookie={0b13fe8c-dfe0-40eb-8900-6712719559a7}
+Version=1.0
+[File000]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\usb_descriptors.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File001]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\usb_device.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File002]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\usb_function_hid.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File003]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\main.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File004]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\psx.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File005]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\gameport.o
+Folder=Intermediary
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={E56A1C86-9D32-4DF6-8C34-FE0388B1B644}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=-pa=4
+TraceCmdString=
+DebugOptions=
+[File006]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\USB Device - HID - joystick_8_24.cof
+Folder=Output
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[File007]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\USB Device - HID - joystick_8_24.hex
+Folder=Output
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[File008]
+Location=E:\Progetti\joy\Firmware\PS2ToHID\USB Device - HID - joystick_8_24.map
+Folder=Output
+DeviceName=PIC18F2550
+LanguageToolSuiteID={5B7D72DD-9861-47BD-9F60-2BE967BF8416}
+LanguageToolID={96C98149-AA1B-4CF9-B967-FAE79CAB663C}
+LanguageToolLocation=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplink.exe
+PPAD=$(BINDIR)||$(TMPDIR)||$(AINDIR)||$(INCDIR)|.\Microchip\Include;.\Microchip\Usb||$(LIBDIR)|C:\Program Files (x86)\Microchip\mplabc18\v3.46\lib||$(LKRDIR)||
+SOLK=<src>|usb_descriptors.c|Microchip\Usb\usb_device.c|Microchip\Usb\HID Device Driver\usb_function_hid.c|main.c|psx.c|gameport.c||<obj>||<lib>||<lkr>||
+SuiteArgsString=
+ToolArgsString=/m"$(BINDIR_)$(TARGETBASE).map" /w /o"$(BINDIR_)$(TARGETBASE).cof"
+TraceCmdString=
+DebugOptions=
+[TOOL_LOC_STAMPS]
+tool_loc{96C98149-AA1B-4CF9-B967-FAE79CAB663C}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mplink.exe
+tool_loc{E56A1C86-9D32-4DF6-8C34-FE0388B1B644}=C:\Program Files (x86)\Microchip\mplabc18\v3.47\bin\mcc18.exe
