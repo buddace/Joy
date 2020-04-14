@@ -100,14 +100,11 @@ void GAMEPORT_Init(void)
 	{
 		GAMEPORT_byte[i]=0;
 	}
-}	
+}
 
 
 //** A D C *******************************************************************************//
 
-// ADC-Ergebnis auslesen
-// neuen Kanal einstellen
-// ADC starten
 void GAMEPORT_Task(void)
 {
 //Buttons
@@ -143,21 +140,14 @@ void GAMEPORT_Task(void)
 		GAMEPORT_byte[ADC_Kanal] = 0xFF - ADRESH;
 		ADC_Kanal++;
 		if (ADC_Kanal >= ADC_X_MAX)
-		{ 
+		{
 			ADC_Kanal = ADC_X_CH;
 		}
-//		switch (ADC_Kanal)
-//		{
-//			case ADC_X_CH:	ADCON0bits.CHS = 0x03; 	break;	//AN0
-//			case ADC_Y_CH:	ADCON0bits.CHS = 0x02; 	break;	//AN1
-//			case ADC_Z_CH:	ADCON0bits.CHS = 0x01; 	break;	//AN2
-//			case ADC_Rz_CH:	ADCON0bits.CHS = 0x00; 	break;	//AN3
-//		}
 		ADCON0bits.CHS = ADC_Ch[ADC_Kanal];
-	
-		ADCON0bits.ADON = 1; 
-		ADCON0bits.GO = 1; 
-	}  
+
+		ADCON0bits.ADON = 1;
+		ADCON0bits.GO = 1;
+	}
 
 	return;
 } // UP_ADC
